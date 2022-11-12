@@ -11,6 +11,8 @@
 :root{
 	--cor01 :rgb(253, 4, 4);
 	--cor02 : rgb(250, 79, 0);
+
+	--font : 'Paytone One', sans-serif;
 }
 
 body {
@@ -126,6 +128,39 @@ a {
 .home .image-fundo{
 	
 }
+.sobre{
+	display: flex;
+	flex: 1 1 100vh;
+	padding: 50px 10% 20px;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.sobre .container{
+	flex: 1 1 500px;
+	padding-left: 280px;
+}
+
+.sobre .container span{
+	font-size: 2.5em;
+	color: var(--cor01);
+}
+
+.sobre .container h3{
+	font-size: 2.5em;
+	padding-top: 20px;
+}
+
+.sobre .container p{
+	color: var(--cor02);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
 @media only screen and (max-width: 600px) {
 	#openMenu, #closeMenu {
 		display: block;
@@ -180,5 +215,26 @@ a {
 	.home .container p{
 		font-size: 13px;
 	}
+    
+	.sobre .container{
+       padding-left: 0;
+	}
+	
+	.sobre .container span{
+		font-size: 2em;
+	}
+	
+	.sobre .container h3{
+		font-size: 2.5em;
+	}
 
+	.sobre .container p{
+		font-size: 13px;
+	}
+
+	.sobre .image-fundo02{
+		display: block;
+		margin: auto;
+		align-items: center;
+	}
 }
