@@ -134,6 +134,7 @@ a {
 	padding: 50px 10% 20px;
 	flex-wrap: wrap;
 	position: relative;
+	background-color: white;
 }
 
 .sobre .container{
@@ -184,7 +185,7 @@ a {
 		height: 100vh;
 		background: rgba(255, 255, 255, 0.8);
 		flex-direction: column;
-		align-items: center;
+		
 		justify-content: center;
 		margin: 0;
 		display: none;
