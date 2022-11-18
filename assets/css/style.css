@@ -203,7 +203,7 @@ a {
 	grid-template-columns: repeat(auto-fit, minmax(200px, 500px));;
 	justify-content: center;
 	justify-items: center;
-	gap: 10px;
+	gap: 20px;
 
 }
 .menu .box-container .box{
