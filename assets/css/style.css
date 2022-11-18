@@ -303,19 +303,22 @@ a {
 	}
 	.menu .box-container{
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(100px, 200px));;
+		grid-template-columns: repeat(auto-fit, minmax(100px, 220px));;
 		justify-content: center;
 		justify-items: center;
 	}
 	.menu .box-container .box{
 		display: flex;
 		align-items: center;
-		width: 180px;
+		width: 200px;
 		height: 100px;
+		padding-right:20px ;
+		
 	}
 	.menu .box-container .box h3{
 		color: var(--cor02);
 		font-size: 13px;
+
 	
 	}
 	.menu .box-container .box .preco{
