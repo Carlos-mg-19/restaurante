@@ -307,4 +307,10 @@ a {
 		justify-content: center;
 		justify-items: center;
 	}
+	.menu .box-container .box{
+		display: flex;
+		align-items: center;
+		width: 250px;
+		height: 100px;
+	}
 }
