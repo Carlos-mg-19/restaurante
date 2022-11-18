@@ -310,7 +310,15 @@ a {
 	.menu .box-container .box{
 		display: flex;
 		align-items: center;
-		width: 250px;
+		width: 180px;
 		height: 100px;
+	}
+	.menu .box-container .box h3{
+		color: var(--cor02);
+		font-size: 13px;
+	
+	}
+	.menu .box-container .box .preco{
+		font-size: 18px;
 	}
 }
