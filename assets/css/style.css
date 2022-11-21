@@ -200,7 +200,7 @@ a {
 
 .menu .box-container{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 490px));;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 490px));
 	justify-content: center;
 	justify-items: center;
 	gap: 20px;
@@ -225,6 +225,32 @@ a {
 	color: black;
 	font-size: 1.3em;
 }
+.popular{
+	margin-top: 3%;
+    flex: 1 1 100vw;
+}
+.popular .heading{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.popular .heading span{
+	color: black;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.popular .heading h3{
+	color: var(--cor02);
+	font-size: 2em;
+}
+.popular .box-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 390px));
+	justify-content: center;
+	justify-items: center;
+
+}
+
+
 @media only screen and (max-width: 600px) {
 	#openMenu, #closeMenu {
 		display: block;
