@@ -247,9 +247,32 @@ a {
 	grid-template-columns: repeat(auto-fit, minmax(200px, 390px));
 	justify-content: center;
 	justify-items: center;
-
+	gap: 5px;
 }
-
+.popular .box-container .box{
+	padding: 5px;
+	text-align: center;
+	justify-content: center;
+}
+.popular .box-container .box .content h3{
+	font-size: 1.3em;
+	color: var(--cor02);
+}
+.preco2 {
+	font-size: 1.2em;
+	padding: 5px;
+}
+.preco2 span{
+	color: rgb(255, 238, 4);
+	text-decoration: line-through black 2px;
+}
+.btnp{
+	background-color: var(--cor01);
+	color: white;
+	padding: 3px;
+	font-size: 17px;
+	border-radius: 5px;
+}
 
 @media only screen and (max-width: 600px) {
 	#openMenu, #closeMenu {
@@ -349,5 +372,9 @@ a {
 	}
 	.menu .box-container .box .preco{
 		font-size: 18px;
+	}
+
+	.popular .box-container {
+		grid-template-columns: repeat(auto-fit, minmax(100px, 230px));
 	}
 }
