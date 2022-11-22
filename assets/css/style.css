@@ -274,6 +274,45 @@ a {
 	border-radius: 5px;
 }
 
+.blogs{
+	flex: 1 1 100vw;
+}
+
+.blogs .heading{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.blogs .heading span{
+	color: black;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.blogs .heading h3{
+	color: var(--cor02);
+	font-size: 2em;
+}
+.blogs .box-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 450px));
+	gap: 10px;
+	justify-content: center;
+	justify-items: center;
+}
+
+.blogs .box-container .box .content h3{
+	padding-top: 15px;
+	font-size: 1.3em;
+	color: var(--cor02);
+}
+.blogs .box-container .box .content p {
+	font-size: 12px;
+	text-align: justify;
+	padding: 10px;
+	line-height: 2;
+}
+
+
 @media only screen and (max-width: 600px) {
 	#openMenu, #closeMenu {
 		display: block;
