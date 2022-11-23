@@ -299,6 +299,39 @@ a {
 	justify-content: center;
 	justify-items: center;
 }
+.blogs  .box-container .box{
+	overflow: hidden;
+}
+.blogs .box-container .image{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+
+}
+.blogs .box-container .image img{
+	
+	object-fit: cover;
+}
+.blogs .box-container .image h3{
+	position: absolute;
+	z-index: 10;
+	left: -100%;
+	top: 20px;
+	background-color: white;
+}
+.blogs .box-container .image .icons{
+	padding: 5px 5px 0px 0px;
+	cursor: pointer;
+}
+.blogs .box-container .image .icons a {
+	padding-right: 5px;
+	font-size: 13px;
+	color: black;
+}
+.blogs .box-container .image .icons a i{
+	padding-right: 2px;
+	color: var(--cor01);
+}
 
 .blogs .box-container .box .content h3{
 	padding-top: 15px;
@@ -310,6 +343,7 @@ a {
 	text-align: justify;
 	padding: 10px;
 	line-height: 2;
+	width: 300px;
 }
 
 
