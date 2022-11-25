@@ -297,11 +297,16 @@ a {
 	grid-template-columns: repeat(auto-fit, minmax(100px, 450px));
 	gap: 10px;
 	justify-content: center;
-	justify-items: center;
+	
 }
 .blogs  .box-container .box{
+	border-radius: 15px;
 	overflow: hidden;
 }
+.blogs .box-container .box:hover .image img{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+} 
 .blogs .box-container .image{
 	position: relative;
 	overflow: hidden;
@@ -312,23 +317,35 @@ a {
 	
 	object-fit: cover;
 }
+.blogs .box-container .box:hover .image h3{
+	left: 30px;
+}
 .blogs .box-container .image h3{
 	position: absolute;
 	z-index: 10;
 	left: -100%;
-	top: 20px;
+	top: 16px;
+	padding: 3px 5px;
+	border-radius: 5px;
 	background-color: white;
+	font-size: 13px;
+	color: black;
+
 }
-.blogs .box-container .image .icons{
+.blogs .box-container .image h3 i{
+	padding-right: 4px;
+	color: var(--cor01);
+}
+.blogs .box-container .box .content .icons{
 	padding: 5px 5px 0px 0px;
 	cursor: pointer;
 }
-.blogs .box-container .image .icons a {
+.blogs .box-container .box .content .icons a {
 	padding-right: 5px;
 	font-size: 13px;
 	color: black;
 }
-.blogs .box-container .image .icons a i{
+.blogs .box-container .box .content .icons a i{
 	padding-right: 2px;
 	color: var(--cor01);
 }
